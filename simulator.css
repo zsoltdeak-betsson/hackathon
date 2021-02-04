@@ -1,0 +1,34 @@
+ span:nth-child(odd) {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }
+  
+  span:nth-child(even) {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }
+
+  span.currentPosition { 
+      background-color: blueviolet;
+  }
+
+  span.interpolatedNext {
+      background-color: blue;
+  }
+
+  .off {
+      background-color: black;
+  }
+  .track {
+      background-color: white;
+  }
+  .startln {
+      background-color: yellowgreen;
+  }
+  .finishln {
+      background-color: yellow;
+  }
