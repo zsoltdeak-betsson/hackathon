@@ -14,9 +14,9 @@ const moves = [{ "x": 17, "y": 29 }, { "x": 17, "y": 28 }];
 const currentPosClass = "currentPosition";
 const interNextClass = "interpolatedNext";
 let velocity = { x: 0, y: 0 };
+let lastBonusId = undefined;
 let lastInterNext = 0;
 let bonusCounter = 0;
-let lastBonusId = undefined;
 
 // onready
 $(
